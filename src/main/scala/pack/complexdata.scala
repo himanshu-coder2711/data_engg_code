@@ -13,7 +13,7 @@ object complexdata {
 
   def main(args:Array[String]):Unit={
 
-    println("===Hello= Himanshu===")
+    println("===Hello====")
 
     val conf = new SparkConf().setAppName("first").setMaster("local[*]").set("spark.driver.host","localhost")
       .set("spark.driver.allowMultipleContexts", "true")
